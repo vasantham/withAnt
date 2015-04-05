@@ -1,0 +1,3 @@
+java -jar selenium-server-standalone-2.35.0.jar -role webdriver -hub http://localhost:4444/grid/register -port 5556 -browser browserName=iexplore,maxInstances=1 -browser browserName=firefox,maxInstances=3 -browser browserName=chrome,maxInstances=3 maxSession 3
+-dwebdriver.chrome.driver=
+java -Dwebdriver.chrome.driver=C:\Users\PRAKASH\Downloads\chromedriver_win32\chromedriver.exe -jar selenium-server-standalone-2.35.0.jar -role webdriver -hub http://localhost:4444/grid/register -port 5557 -browser browserName=iexplore,maxInstances=1 -browser browserName=firefox,maxInstances=1 -browser browserName=chrome,maxInstances=1 maxSession 1
